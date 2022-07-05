@@ -1,0 +1,48 @@
+@import "config";
+@import "desktop";
+@import "mobile";
+
+body{
+  font-family: $font-one;
+  font-size: 15px;
+}
+
+header{
+  position: relative;
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+
+    a{
+      text-decoration: none;
+      /*color: #FFFFFF;*/
+    }
+
+    ul{
+      list-style-type: none;
+
+      li{
+        display: inline;
+        margin-inline-start: 2rem;
+        font-size: 13px;
+      }
+    }
+  }
+
+  .intro{
+    border: 1px solid red;
+    text-transform: uppercase;
+    inline-size: min-content;
+    padding: 15px 15px 30px 15px;
+  }
+}
+
+.attribution{
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a{
+  color: hsl(228, 45%, 44%);
+}
