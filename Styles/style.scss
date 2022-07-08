@@ -81,6 +81,10 @@ footer{
   .first{
     display: flex;
     flex-direction: column;
+
+    img{
+      margin-inline-start: 0.5rem;
+    }
   }
 
   .second{
