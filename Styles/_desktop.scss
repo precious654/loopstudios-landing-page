@@ -16,6 +16,11 @@
 
   .section-two{
 
+    .top{
+      display: flex;
+      justify-content: space-between;
+    }
+
     .writing{
       bottom: 30px;
       right: 80px;
