@@ -12,6 +12,22 @@ img{
   block-size: auto;
 }
 
+button{
+  padding: 10px 20px;
+  color: #000000;
+  background-color: inherit;
+  font-size: 13px;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  border: 1px solid #000000;
+}
+
+button:hover{
+  border: none;
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
 .container{
   inline-size: 90%;
   margin: auto;

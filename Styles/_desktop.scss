@@ -14,6 +14,24 @@
     }
   }
 
+  .section-two{
+
+    .writing{
+      bottom: 30px;
+      right: 80px;
+    }
+
+    .images{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 1rem;
+    }
+
+    .mobile-button{
+      display: none;
+    }
+  }
+
   footer{
 
     ul{

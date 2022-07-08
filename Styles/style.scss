@@ -38,6 +38,28 @@ header{
   }
 }
 
+.section-two{
+  margin-block-end: 5rem;
+
+  .images{
+
+    .item{
+      position: relative;
+
+      .writing{
+        position: absolute;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        font-size: 29px;
+        line-height: 1.5rem;
+        inline-size: 45%;
+        font-weight: lighter;
+
+      }
+    }
+  }
+}
+
 footer{
   background-color: #000000;
   color: #FFFFFF;
