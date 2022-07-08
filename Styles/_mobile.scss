@@ -13,5 +13,25 @@
       }
     }
   }
-  
+
+  footer{
+    text-align: center;
+
+    ul{
+
+      li{
+        margin-block-start: 1rem;
+      }
+    }
+
+    .second{
+      gap: 1rem;
+    }
+
+    .footer-flex{
+      flex-direction: column;
+      gap: 2rem;
+    }
+  }
+
 }

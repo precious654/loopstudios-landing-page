@@ -14,4 +14,23 @@
     }
   }
 
+  footer{
+
+    ul{
+
+      li{
+        margin-inline-end: 1rem;
+        display: inline;
+      }
+    }
+
+    .first{
+      gap: 1.2rem;
+    }
+
+    .footer-flex{
+      justify-content: space-between;
+    }
+  }
+
 }
