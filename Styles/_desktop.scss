@@ -67,10 +67,24 @@
         margin-inline-end: 1rem;
         display: inline;
       }
+
+      li:hover{
+        border-bottom: 3px solid #FFFFFF;
+        padding-block-end: 0.4rem;
+      }
     }
 
     .first{
       gap: 1.2rem;
+    }
+
+    .second{
+
+      .icon:hover{
+        border-bottom: 3px solid #FFFFFF;
+        padding-block-end: 0.4rem;
+        cursor: pointer;
+      }
     }
 
     .footer-flex{
