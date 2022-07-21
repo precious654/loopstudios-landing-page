@@ -7,10 +7,26 @@
   header{
 
     nav{
+      top: 30px;
+      left: 10px;
 
       .nav-items{
         display: none;
       }
+    }
+
+    .intro{
+      padding-inline-end: 50px;
+      bottom: 90px;
+      left: 10px;
+    }
+  }
+
+  .section-one{
+
+    .write-up{
+      margin-block-start: 1rem;
+      text-align: center;
     }
   }
 

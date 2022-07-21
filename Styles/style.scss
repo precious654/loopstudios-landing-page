@@ -11,12 +11,13 @@ header{
   position: relative;
 
   nav{
+    position: absolute;
     display: flex;
     justify-content: space-between;
 
     a{
       text-decoration: none;
-      /*color: #FFFFFF;*/
+      color: #FFFFFF;
     }
 
     ul{
@@ -27,22 +28,48 @@ header{
         margin-inline-start: 2rem;
         font-size: 13px;
       }
+
+      li:hover{
+        border-bottom: 3px solid #FFFFFF;
+        padding-block-end: 0.4rem;
+      }
     }
   }
 
   .intro{
-    border: 1px solid red;
+    font-size: 43px;
+    font-weight: lighter;
+    line-height: 2.3rem;
+    position: absolute;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
     text-transform: uppercase;
     inline-size: min-content;
-    padding: 15px 15px 30px 15px;
+    padding-block-start: 20px;
+    padding-block-end: 20px;
+    padding-inline-start: 20px;
+  }
+}
+
+.section-one{
+  margin-block-start: 4rem;
+  margin-block-end: 4rem;
+
+  .write-up{
+
+    h1{
+      font-size: 30px;
+      text-transform: uppercase;
+      margin-block-end: 1rem;
+    }
   }
 }
 
 .section-two{
-  margin-block-end: 5rem;
+  margin-block-end: 6rem;
 
   .top{
-    margin-block-end: 3rem;
+    margin-block-end: 2rem;
 
     h1{
       font-size: 30px;
@@ -64,8 +91,12 @@ header{
         line-height: 1.5rem;
         inline-size: 45%;
         font-weight: normal;
-
       }
+    }
+
+    .image-hover:hover{
+      opacity: 0.4;
+      cursor: pointer;
     }
   }
 }
@@ -86,6 +117,11 @@ footer{
     li{
       font-size: 12px;
     }
+
+    li:hover{
+      border-bottom: 3px solid #FFFFFF;
+      padding-block-end: 0.4rem;
+    }
   }
 
   .first{
@@ -102,6 +138,12 @@ footer{
 
     p{
       font-size: 12px;
+    }
+
+    .icon:hover{
+      border-bottom: 3px solid #FFFFFF;
+      padding-block-end: 0.4rem;
+      cursor: pointer;
     }
   }
 

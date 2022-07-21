@@ -7,10 +7,32 @@
   header{
 
     nav{
+      top: 30px;
+      left: 60px;
 
       #nav-menu{
         display: none;
       }
+    }
+
+    .intro{
+      padding-inline-end: 90px;
+      bottom: 240px;
+      left: 60px;
+    }
+  }
+
+  .section-one{
+    position: relative;
+
+    .write-up{
+      position: absolute;
+      right: 90px;
+      bottom: 5px;
+      padding-block-start: 70px;
+      padding-inline-start: 70px;
+      inline-size: 650px;
+      background-color: #FFFFFF;
     }
   }
 
