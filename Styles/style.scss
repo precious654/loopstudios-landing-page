@@ -52,14 +52,41 @@ header{
 }
 
 .nav-list{
+  block-size: 100%;
+  inline-size: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  background-color: #000000;
+  opacity: 0.9;
+  overflow-x: hidden;
+  padding-block-start: 30px;
+  color: #FFFFFF;
+  transition: 0.3s;
 
-  li{
-    font-size: 24px;
-    margin-block-start: 1rem;
 
-    a{
-      text-decoration: none;
+  ul{
+    list-style-type: none;
+    margin-block-start: 7rem;
+    margin-inline-start: 1rem;
+
+    li{
+      font-size: 24px;
+      margin-block-start: 1rem;
+
+      a{
+        text-decoration: none;
+        color: inherit;
+      }
     }
+  }
+
+  .flex{
+    display: flex;
+    justify-content: space-between;
+    margin-inline-start: 1rem;
+    margin-inline-end: 1rem;
   }
 }
 
